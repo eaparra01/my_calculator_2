@@ -21,6 +21,11 @@ function square() {
   num.value = num.value * num.value;
 }
 
+function inverse() {
+  var num = document.getElementById("n1");
+  num.value = 1/num.value;
+}
+
 </script>
 </head>
 <body>
@@ -36,6 +41,8 @@ Number:
 <button onclick="tofour()"> x^4 </button>
 
 <button onclick="square()"> x^2 </button>
+
+<button onclick="inverse()"> 1/x </button>
 
 </p>
 </body>
